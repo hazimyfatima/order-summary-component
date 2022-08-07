@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin :0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("images/pattern-background-desktop.svg") no-repeat;
+  background-size: 100% 100%;
+  background-color: hsl(255, 100%, 94%);
+  height: 50vh;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+p {
+  font-size:16px;
+}
+
+.card {
+  width: 400px;
+  margin-top:100px;
+  margin-bottom:100px;
+  margin: 50px auto;
+  justify-content: center;
+  box-shadow: 0 10px 10px hsl(290, 54%, 87%);
+  border-radius:5%;
+}
+
+h1, h2{
+  color: hsl(223, 47%, 23%);
+}
+
+.card img {
+  border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+p {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.card-body {
+  background-color: #fff;
+}
+
+.card-text {
+  padding: 20px 0;
+}
+
+.music-icon {
+  background-image: url("images/icon-music.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 3.5rem;
+  height: 3rem;
+}
+
+.plan {
+  background-color: hsl(255, 100%, 98%);
+  width: 80;
+  margin: 1rem;
+  padding: 15px;
+  display: flex;
+  border-radius:15px;
+}
+
+.change-btn {
+  padding-left: 85px;
+  font-size:15px;
+  font-weight: 700;
+}
+
+.change-btn:hover {
+  opacity: .5;
+  text-decoration: none;
+}
+
+.payment-btn {
+  text-align: center;
+  display: block;
+  width: 80%;
+  margin: 30px auto 0;
+  background-color: hsl(245, 75%, 52%);
+  padding: 15px 0;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Red Hat Display', sans-serif; 
+  box-shadow: 0 20px 25px hsl(230, 54%, 87%);  
+}
+
+.payment-btn:hover {
+  background-color: hsl(241, 78%, 64%);
+}
+
+.cancel-btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  padding: 30px 0 40px;
+  font-weight: 700;
+}
+
+.cancel-btn:hover{
+  color:hsl(223, 47%, 23%);
+
+}
+
+.footer-text {
+  /* margin-bottom: 20px; */
+  padding-bottom: 40px;
+  font-size: 15px;
+  text-align: center;
+  color: #777777;
+}
+
+footer a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+@media (max-width: 480px) {
+
+  body {
+    background-image: url("images/pattern-background-mobile.svg");
+  }
+  .card {
+    margin-top: 50px;
+  }
+
+  .card-body {
+    justify-content: space-evenly;
+    padding: 1rem;
+    gap: 3rem;
+  }
+  
+}
